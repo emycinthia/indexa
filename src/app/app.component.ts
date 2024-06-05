@@ -14,6 +14,7 @@ interface Contato {
 }
 
 import agenda from './agenda.json'
+import { FormContatoComponent } from './paginas/form-contato/form-contato.component';
 
 @Component({
   selector: 'app-root',
@@ -25,7 +26,8 @@ import agenda from './agenda.json'
     CabecalhoComponent,
     SeparadorComponent,
     ContatoComponent,
-    FormsModule
+    FormsModule,
+    FormContatoComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
